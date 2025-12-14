@@ -33,16 +33,18 @@ This project implements a **UART RX-TX core** using **Verilog HDL**, enabling re
   - Accurate baud timing
   - Back-to-back data transmission
   - Stable center-bit sampling
- 
+
+## Directory 
 uart/
 ├── rtl/
-│   ├── baud_rate_generator.v   # Baud rate tick generation
+│   ├── baud_rate_generator.v   # Baud rate tick generator
 │   ├── uart_tx.v               # UART transmitter
 │   ├── uart_rx.v               # UART receiver
-│   └── uart_top.v              # Top-level integration
+│   └── uart_top.v              # Top-level UART integration
 ├── sim/
 │   └── uart_tb.v               # Testbench
 └── README.md                   # Project documentation
+
 
 ---
 
