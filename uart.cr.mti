@@ -1,0 +1,43 @@
+F:/eg/UART/uart_baud_rate_gen.v {1 {vlog -work work -vopt -stats=none F:/eg/UART/uart_baud_rate_gen.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module baud_rate_gen_tx
+
+Top level modules:
+	baud_rate_gen_tx
+
+} {} {}} F:/eg/UART/uart_tx.v {1 {vlog -work work -vopt -stats=none F:/eg/UART/uart_tx.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module uart_tx
+
+Top level modules:
+	uart_tx
+
+} {} {}} F:/eg/UART/uart_baud_rate_gen_rx.v {1 {vlog -work work -vopt -stats=none F:/eg/UART/uart_baud_rate_gen_rx.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module baud_rate_gen_rx
+
+Top level modules:
+	baud_rate_gen_rx
+
+} {} {}} F:/eg/UART/uart_tb.sv {1 {vlog -work work -vopt -sv -stats=none F:/eg/UART/uart_tb.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module uart_tb
+
+Top level modules:
+	uart_tb
+
+} {} {}} F:/eg/UART/uart_rx.v {1 {vlog -work work -vopt -stats=none F:/eg/UART/uart_rx.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module uart_rx
+
+Top level modules:
+	uart_rx
+
+} {} {}} F:/eg/UART/uart_top.v {1 {vlog -work work -vopt -stats=none F:/eg/UART/uart_top.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module uart_top
+
+Top level modules:
+	uart_top
+
+} {} {}}

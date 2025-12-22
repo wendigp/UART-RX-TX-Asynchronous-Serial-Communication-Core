@@ -1,0 +1,179 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/eg/noc
+T_opt
+!s110 1765993103
+VnCS^M0gVETA;K_iJE2WRF1
+04 7 4 work uart_tb fast 0
+=1-3822e20cee86-6942ea8f-155-1a6c
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vbaud_rate_gen
+!s110 1765734798
+!i10b 1
+!s100 ]d9jK:_m;1<2AlK>9Zf_Q3
+Ic2jUiG_f]X<Gj>Fj?g<PI0
+Z2 dF:/eg/UART
+w1765734790
+8F:\eg\UART\uart_baud_rate_gen.v
+FF:\eg\UART\uart_baud_rate_gen.v
+!i122 1
+L0 3 31
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1765734798.000000
+!s107 F:\eg\UART\uart_baud_rate_gen.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:\eg\UART\uart_baud_rate_gen.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vbaud_rate_gen_rx
+Z6 !s110 1765993080
+!i10b 1
+!s100 NUZ3FNR[L8fWWY5I@[1@03
+IgBH`BKi6MQQBlT<9<5>8z2
+R2
+w1765815973
+8F:/eg/UART/uart_baud_rate_gen_rx.v
+FF:/eg/UART/uart_baud_rate_gen_rx.v
+!i122 21
+L0 2 32
+R3
+R4
+r1
+!s85 0
+31
+Z7 !s108 1765993080.000000
+!s107 F:/eg/UART/uart_baud_rate_gen_rx.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/eg/UART/uart_baud_rate_gen_rx.v|
+!i113 0
+R5
+R1
+vbaud_rate_gen_tx
+R6
+!i10b 1
+!s100 >=>ROY^9<^l=n@VDK>L]z1
+Ia0007m0oKzWK^kcHXCRNW2
+R2
+w1765815772
+8F:/eg/UART/uart_baud_rate_gen.v
+FF:/eg/UART/uart_baud_rate_gen.v
+!i122 19
+L0 3 34
+R3
+R4
+r1
+!s85 0
+31
+!s108 1765993079.000000
+!s107 F:/eg/UART/uart_baud_rate_gen.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/eg/UART/uart_baud_rate_gen.v|
+!i113 0
+R5
+R1
+vuart_rx
+R6
+!i10b 1
+!s100 QZD1VIBiiDhj0dbFRNQk=3
+IMNF51F1V]b;Mm>cL>Ez?j0
+R2
+w1765819741
+8F:/eg/UART/uart_rx.v
+FF:/eg/UART/uart_rx.v
+!i122 22
+L0 3 96
+R3
+R4
+r1
+!s85 0
+31
+R7
+!s107 F:/eg/UART/uart_rx.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/eg/UART/uart_rx.v|
+!i113 0
+R5
+R1
+vuart_tb
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R6
+!i10b 1
+!s100 UU`7bfRB4CWHS>JEiA8LN2
+IzS]@9;@d:V<_dlIl9M4Aj0
+S1
+R2
+w1765991761
+8F:/eg/UART/uart_tb.sv
+FF:/eg/UART/uart_tb.sv
+!i122 24
+L0 3 93
+R3
+R4
+r1
+!s85 0
+31
+R7
+!s107 F:/eg/UART/uart_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|F:/eg/UART/uart_tb.sv|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vuart_top
+R6
+!i10b 1
+!s100 L7l0alkCk]zmSnfK20E4]2
+IlG=NV8MH:liNH=c>PTE7M0
+R2
+w1765992976
+8F:/eg/UART/uart_top.v
+FF:/eg/UART/uart_top.v
+!i122 23
+L0 2 57
+R3
+R4
+r1
+!s85 0
+31
+R7
+!s107 F:/eg/UART/uart_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/eg/UART/uart_top.v|
+!i113 0
+R5
+R1
+vuart_tx
+R6
+!i10b 1
+!s100 THgRTl[XhD1;9MK5g?[bb3
+IInW^GkAG<zzme`9^GUZV?0
+R2
+w1765734501
+8F:/eg/UART/uart_tx.v
+FF:/eg/UART/uart_tx.v
+!i122 20
+L0 3 79
+R3
+R4
+r1
+!s85 0
+31
+R7
+!s107 F:/eg/UART/uart_tx.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/eg/UART/uart_tx.v|
+!i113 0
+R5
+R1
