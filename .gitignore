@@ -1,0 +1,18 @@
+# Questa / ModelSim
+work/
+transcript
+*.wlf
+*.ucdb
+*.log
+
+# Coverage & logs
+sim/logs/
+sim/coverage/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
